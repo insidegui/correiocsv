@@ -1,0 +1,26 @@
+correiocsv - Converte rastreamento dos correios em arquivo CSV
+
+Requerimentos:
+gem Nokogiri - "sudo gem install nokogiri"
+
+Como usar:
+
+ruby correiocsv.rb (código)
+
+Exemplo:
+
+ruby correiocsv.rb CP912406317HK
+
+Resultado:
+
+Data,Local,Situação,
+04/04/2013 14:37,AC RIO POMBA - RIO POMBA/MG,Entrega Efetuada,
+04/04/2013 08:21,AC RIO POMBA - RIO POMBA/MG,Saiu para entrega,
+04/04/2013 07:43,AC RIO POMBA - RIO POMBA/MG,Conferido,
+03/04/2013 13:51,CTE BELO HORIZONTE - BELO HORIZONTE/MG,Encaminhado,
+02/04/2013 13:28,CTCI RIO DE JANEIRO/GEARA - RIO DE JANEIRO/RJ,Encaminhado,
+02/04/2013 13:27,UNIDADE DE TRATAMENTO INTERNACIONAL - BRASIL,Conferido,
+01/04/2013 11:30,UNIDADE TRAT INTERNACIONAL RIO JANEIRO - RIO DE JANEIRO/RJ,Encaminhado,
+01/04/2013 11:29,UNIDADE TRAT INTERNACIONAL RIO JANEIRO - RIO DE JANEIRO/RJ,Conferido,
+30/03/2013 08:28,HONG KONG,Encaminhado,
+29/03/2013 08:18,HONG KONG,Postado,
